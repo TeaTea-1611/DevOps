@@ -19,15 +19,12 @@ services:
     ports:
       - "3000:3000"
     environment:
-      OPENAI_API_KEY: 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
-      DATABASE_URL: postgres://default:JOw1L9QiDZGS@ep-autumn-bar-26273266.ap-southeast-1.postgres.vercel-storage.com:5432/verceldb
-      STRIPE_API_KEY:
-      STRIPE_WEBHOOK_SECRET:
-      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: pk_test_bmF0dXJhbC1tb3RoLTQzLmNsZXJrLmFjY291bnRzLmRldiQ
-      CLERK_SECRET_KEY: sk_test_SIeZeubHXE3jVG4J1FsXzUic9fnERMhdpOxppXqxlm
-      NEXT_PUBLIC_CLERK_SIGN_IN_URL: /sign-in
-      NEXT_PUBLIC_CLERK_SIGN_UP_URL: /sign-up
-      NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL: /dashboard
-      NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL: /dashboard
-      NEXT_PUBLIC_APP_URL: http://localhost:3000/
-      NEXT_PUBLIC_CRISP_WEBSITE_ID:
+      OPENAI_API_KEY: "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"
+      DATABASE_URL: "postgres://default:JOw1L9QiDZGS@ep-autumn-bar-26273266.ap-southeast-1.postgres.vercel-storage.com:5432/verceldb"
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: "pk_test_bmF0dXJhbC1tb3RoLTQzLmNsZXJrLmFjY291bnRzLmRldiQ"
+      CLERK_SECRET_KEY: "sk_test_SIeZeubHXE3jVG4J1FsXzUic9fnERMhdpOxppXqxlm"
+      NEXT_PUBLIC_CLERK_SIGN_IN_URL: "/sign-in"
+      NEXT_PUBLIC_CLERK_SIGN_UP_URL: "/sign-up"
+      NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL: "/dashboard"
+      NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL: "/dashboard"
+      NEXT_PUBLIC_APP_URL: "http://localhost:3000/"
