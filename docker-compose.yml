@@ -20,3 +20,4 @@ services:
       NEXT_PUBLIC_CRISP_WEBSITE_ID:
 
 volumes:
+  devops:
